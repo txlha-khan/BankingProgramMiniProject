@@ -32,7 +32,7 @@ public class BankingProgramMiniProject {
                         }
                     }catch(Exception ignored){}
                 }
-                default -> System.out.println("error");
+                default -> System.out.println("error");//There is no way, this line ever executes.
             }
 
         }while(choice != 4);
